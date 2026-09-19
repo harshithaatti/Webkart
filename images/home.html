@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webkart</title>
+    <style>
+       
+        .nav-bar{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:10px 20px;
+            padding-top:35px;
+
+        }
+        .nav-links a{
+            text-decoration:none;
+            color:black;
+            margin-right:20px;
+            padding: 10px;
+            padding-top:20px;
+            padding-right: 10px;
+            font-size:20px;
+        }
+        .kart{
+            color:rgb(91, 196, 245);
+        }
+        .logo{
+            text-decoration:none;
+            color:rgb(250, 124, 65);
+            font-size:22px;
+            font-weight:bold;
+        }
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        .bg-image{
+                background-image:url(./Webkart/images/bg.jpeg);
+              background-size: cover;
+              background-position: center;
+              background-repeat: no-repeat;
+              
+                min-height:100vh;
+                width:100%;
+
+        }
+        .main-sub{
+               display:flex;
+               flex-direction:column;
+               padding-top:330px;
+               padding-left:500px;
+               font-size:27px;
+            
+        }
+        .shop-now{
+            margin-left:500px;
+            margin-top: 10px;
+            background-color: #a54307;
+            text-decoration:none;
+            color:white;
+            border: none;
+            padding: 10px 20px;
+            border-radius:4px;
+            
+        }
+      .cat-cards{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+      }
+      .cat-cards .cat-card{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        padding:10px 20px;
+        margin:10px 20px;
+        border:1px solid black;
+        border-radius:6px;
+      }
+      .product-cards{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+      }
+      .categories{
+        padding-top:100px;
+      }
+      
+    </style>
+</head>
+<body>
+    <section>
+        <header class="nav-bar">
+        
+            <a href="home.html" class="logo"> Web<span class="kart">kart</span></a>
+            <nav class="nav-links">
+                <a href="home.html" >Home</a>
+                <a href="products.html" >Products</a>
+                <a href="reviews.html">Reviews</a>
+                <a href="contact.html" >Contact</a>
+            </nav>
+        </header>
+    </section>
+    <div class="main-div">
+        <div class="bg-image">
+        <div class="main-sub">
+            <h3>welcome to webkart</h3>
+            <h1>Shop Smart,<br> Live better</h1>
+            <p>Discover the best products at unbeatable prices.</p>
+          
+
+        </div>
+        <div>
+         <button  class="shop-now">   <a href="products.html" style="text-decoration:none; color:white;">shop now</a>
+        </button>         
+        </div>
+        </div>
+        <div class="categories">
+            <h2 style="margin-left: 550px; ">Featured categories</h2>
+            <div class="cat-cards">
+                <div class="cat-card">
+                    <img src="./WebKart/images/Electronics.jpeg" alt="" style="width:100px;height:100px;border-radius:6px">
+                    <h4>Electronics</h4>
+                </div>
+
+                 <div class="cat-card">
+                    <img src="./Webkart/images/Fashion.jpeg" alt="" style="width:100px;height:100px;border-radius:6px">
+                    <h4>Fashion</h4>
+                </div>
+
+                 <div class="cat-card">
+                    <img src="./Webkart/images/Beauty.jpeg" alt="" style="width:100px;height:100px;border-radius:6px">
+                    <h4>Beauty</h4>
+                </div>
+
+                 <div class="cat-card">
+                    <img src="./images/Furniture.jpeg" alt="" style="width:100px;height:100px;border-radius:6px">
+                    <h4>Home & Living</h4>
+                </div>
+
+                 <div class="cat-card">
+                    <img src="./images/Sports.jpeg" alt="" style="width:100px;height:100px;border-radius:6px">
+                    <h4>sports</h4>
+                </div>
+
+                 <div class="cat-card">
+                    <img src="./images/Toys.jpeg" alt="" style="width:100px;height:100px;border-radius:6px">
+                    <h4>Toys & Kids</h4>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="product-cards">
+             <h2 style="margin-left: 550px; margin-top:20px;">Featured Products</h2>
+             
+             <div class="product-card">
+                <img src="./images/ps5.png" alt="" style="width:100px;height:100px;border-radius:6px" >
+                <div >
+                    <h4>ps5 console</h4>
+                    <p> price: 50,000/-</p>
+                </div>
+             </div>
+
+             <div class="product-card">
+                <img src="./images/backpack.jpeg" alt="" style="width:100px;height:100px;border-radius:6px" >
+                <div >
+                    <h4>Travel Backpack</h4>
+                    <p> price: 5,000/-</p>
+                </div>
+             </div>
+
+             <div class="product-card">
+                <img src="./images/Sports.jpeg" alt="" style="width:100px;height:100px;border-radius:6px" >
+                <div >
+                    <h4> white sneakers</h4>
+                    <p> price: 3,000/-</p>
+                </div>
+             </div>
+
+             <div class="product-card">
+                <img src="./images/headphones.jpeg" alt="" style="width:100px;height:100px;border-radius:6px" >
+                <div >
+                    <h4>Headphones</h4>
+                    <p> price: 3,200/-</p>
+                </div>
+             </div>
+
+             <div class="product-card">
+                <img src="./images/sunglasses.jpeg" alt="" style="width:100px;height:100px;border-radius:6px" >
+                <div >
+                    <h4>sun glasses</h4>
+                    <p> price: 1,200/-</p>
+                </div>
+             </div>
+
+             <div class="product-card">
+                <img src="./images/watch.jpg" alt="" style="width:100px;height:100px;border-radius:6px" >
+                <div >
+                    <h4>smart watch</h4>
+                    <p> price: 2,100/-</p>
+                </div>
+             </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
